@@ -1,0 +1,15 @@
+<!--#include virtual="assets/meta.shtml"-->
+<title>Remax Overbrook</title>
+<!-- ************ EDITABLE PAGE TITLE ************ -->
+<!--#include virtual="assets/headermenu.shtml"-->
+<div id="content">
+<!-- Main Content -->
+<div id="mainContent3">
+  <!-- ************ EDITABLE MAIN CONTENT AREA ************ -->
+  <div class="container">
+    <h2>Map</h2>
+    <h3>3 miles east of Harrisonburg, VA</h3>
+    <p><img src="http://www.remaxoverbrook.com/images/va.gif" align="absmiddle" border="0" height="101" width="196" /></p>
+    <p><img src="images/map.gif" alt="Map" width="567" height="458" /></p></div>
+</div>
+<!--#include virtual="assets/footer.shtml"-->

@@ -1,0 +1,36 @@
+<!--#include virtual="assets/meta.shtml"-->
+<title>Remax Overbrook</title>
+<!-- ************ EDITABLE PAGE TITLE ************ -->
+<!--#include virtual="assets/headermenu.shtml"-->
+  <div id="content">
+    <!-- Main Content -->
+    <div id="leftColumn"> <img src="http://www.remaxoverbrook.com/images/house4645.jpg" alt="House" class="colimg" /> <img src="http://www.remaxoverbrook.com/images/house4443.jpg" alt="House" class="colimg" /> <img src="http://www.remaxoverbrook.com/images/house17.jpg" alt="House" class="colimg" /> <img src="http://www.remaxoverbrook.com/images/house3x.jpg" alt="House" class="colimg" /> <img src="http://www.remaxoverbrook.com/images/house5354.jpg" alt="House" class="colimg" /> <img src="http://www.remaxoverbrook.com/images/house22.jpg" alt="House" class="colimg" /> </div>
+    <div id="mainContent">
+      <!-- ************ EDITABLE MAIN CONTENT AREA ************ -->
+      <div class="container">
+        <h2>Welcome Home!</h2>
+        <img src="http://www.remaxoverbrook.com/images/sign3.jpg" alt="Remax Overbrook" class="colimg" style="float:left; margin:8px 10px 0px 0px;" />
+        <p><strong>Beautiful residential subdivision with great views and <a href="http://www.remaxoverbrook.com/assets/covenants.pdf" target="_blank">protective covenants</a></strong>—Overbrook  differs from other planned communities, not only because of its  beautiful views of the Massanutten and Blue Ridge mountains, but also  its lush open green spaces that everyone can enjoy. <strong>39% of Overbrook's Phase 1 is dedicated open space</strong> for you to play in, go for a walk, or just spend time with Mother Nature:</p>
+        <img src="http://www.remaxoverbrook.com/images/mountain12.jpg" alt="Remax Overbrook" class="colimg" style="float:right; margin:8px 0px 0px 10px;" />
+        <ul>
+          <li>Numerous common areas for walking and recreation</li>
+          <li>Close to schools, shopping, and <strong>NEW</strong> hospital
+            <ul>
+              <li><a href="http://www.rockingham.k12.va.us/CRES/cres.html">Cub Run Elementary</a> (1 mile) - <strong>NEW</strong></li>
+              <li><a href="http://www.rockingham.k12.va.us/MMS/index.html">Montevideo Middle School</a> (1 mile)</li>
+              <li><a href="http://www.rockingham.k12.va.us/SHS/SHS.html">Spotswood High School</a> (2 miles)</li>
+            </ul>
+          </li>
+          <li>Public roads maintained by V-DOT</li>
+          <li>Public water and sewer</li>
+          <li>Home owners association</li>
+          <li>Lot prices starting at $59,900</li>
+          <li><a href="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=McGaheysville,+Virginia&amp;sll=37.0625,-95.677068&amp;sspn=44.339735,79.013672&amp;ie=UTF8&amp;ll=38.392263,-78.758583&amp;spn=0.172217,0.308647&amp;z=12&amp;iwloc=A">Only 9 miles from downtown Harrisonburg and Elkton</a></li>
+          <li><a href="builders.shtml">Choose your own builder or use one of our's</a></li>
+        </ul>
+        <p>&#160;</p>
+        <p>&#160;</p>
+      </div>
+    </div>
+    <div id="rightColumn"> <img src="http://www.remaxoverbrook.com/images/house1.jpg" alt="House" class="colimg" /> <img src="http://www.remaxoverbrook.com/images/house2.jpg" alt="House" class="colimg" /> <img src="http://www.remaxoverbrook.com/images/house4.jpg" alt="House" class="colimg" /> <img src="http://www.remaxoverbrook.com/images/house6.jpg" alt="House" class="colimg" /> <img src="http://www.remaxoverbrook.com/images/house8.jpg" alt="House" class="colimg" /> <img src="http://www.remaxoverbrook.com/images/house20.jpg" alt="House" class="colimg" /> </div>
+    <!--#include virtual="assets/footer.shtml"-->

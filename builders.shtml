@@ -1,0 +1,35 @@
+<!--#include virtual="assets/meta.shtml"-->
+<title>Remax Overbrook</title>
+<!-- ************ EDITABLE PAGE TITLE ************ -->
+<!--#include virtual="assets/headermenu.shtml"-->
+<div id="content">
+<!-- Main Content -->
+<div id="mainContent3">
+  <!-- ************ EDITABLE MAIN CONTENT AREA ************ -->
+  <div class="container">
+    <h2>Builders</h2>
+    <table width="100%" cellspacing="10" cellpadding="5">
+      <tr>
+        <td width="33%" valign="top"><h3>Dana Davis<br />
+          Cedar Creek Custom Homes Inc.</h3>
+          <p>P.O. Box 38<br />
+            McGaheysville, Va. 22840<br />
+            Office / Fax 540-289-5315<br />
+  <a href="http://www.cedarcreekcustomhomes.com" target="_blank">www.cedarcreekcustomhomes.com</a></p></td>
+        <td width="33%" valign="top"><h3>Simensen Construction</h3>
+          <p>3425 Izaak Walton Dr<br />
+            Harrisonburg, VA 22801<br />
+            Phone: (540) 432 - 6822<br />
+            Email: <a href="mailto:htcdsimensen@yahoo.com" target="_blank">htcdsimensen@yahoo.com</a></p>
+        <p><a href="http://www.simensenconstruction.com" target="_blank">www.simensenconstruction.com</a></p></td>
+        <td valign="top"><h3>Peerless Homes, Inc.</h3>
+          <p>1900 Marigold Circle<br />
+            Harrisonburg VA 22801<br />
+        Phone: (540)438-0731</p></td>
+      </tr>
+    </table>
+    
+    <h1>OR CHOOSE YOUR OWN BUILDER!</h1>
+  </div>
+</div>
+<!--#include virtual="assets/footer.shtml"-->

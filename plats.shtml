@@ -1,0 +1,25 @@
+<!--#include virtual="assets/meta.shtml"-->
+<title>Remax Overbrook</title>
+<!-- ************ EDITABLE PAGE TITLE ************ -->
+<!--#include virtual="assets/headermenu.shtml"-->
+  <div id="content">
+    <div id="leftColumn" style="width:233px;">
+      <div class="container">
+        <h2>Plats</h2>
+        <ul class="options">
+          <li><a href="http://www.remaxoverbrook.com/images/overbrookPlats_phase2a.gif" target="_blank">Phase 2: Overview</a></li>
+          <li><a href="http://www.remaxoverbrook.com/images/overbrookPlats_phase2b.gif" target="_blank">Phase 2: Lots 10-14</a></li>
+          <li><a href="http://www.remaxoverbrook.com/images/overbrookPlats_phase2c.gif" target="_blank">Phase 2: Lots 15-21</a></li>
+          <li><a href="http://www.remaxoverbrook.com/images/overbrookPlats_phase2d.gif" target="_blank">Phase 2: Lots 22-24</a></li>
+          <li><a href="http://www.remaxoverbrook.com/images/overbrookPlats_phase3a.gif" target="_blank">Phase 3: Lots 25-30</a></li>
+          <li><a href="http://www.remaxoverbrook.com/images/overbrookPlats_phase4a.gif" target="_blank">Phase 4: Overview</a></li>
+          <li><a href="http://www.remaxoverbrook.com/images/overbrookPlats_phase4b.gif" target="_blank">Phase 4: Lots 31, 32, 49, 50, 57, &amp; 58</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- Main Content -->
+    <div id="mainContent2" style="width:700px;">
+      <!-- ************ EDITABLE MAIN CONTENT AREA ************ -->
+      <img src="images/overbrookPlat.gif" alt="Plat" width="700" height="907" class="colimg" /></p> 
+    </div>
+    <!--#include virtual="assets/footer.shtml"-->

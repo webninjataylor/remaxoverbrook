@@ -1,0 +1,571 @@
+@charset "UTF-8";
+/* CSS Document */
+/************************/
+/******** COLORS ********/
+/************************/
+/*
+Dark Blue = 041a36
+Mid-Blue = 5ca2dd
+Light Blue = 88afce
+Grey = 555555
+
+
+
+Dark Blue = 0f3658
+Mid-Blue = 375774
+Light Blue = 96b3ce
+Light Light Blue = b0c5d6  (home text on black)       e2eaf0
+Yellow = d2a510   (light = f4e8c3)
+Orange = fcac00
+Maroon = 661a03
+*/
+/*243 (200) ... 469 (465) ... 243 (200)*/
+/************************************************************************************************/
+/**************************************** DEFAULT STYLES ****************************************/
+/************************************************************************************************/
+html, body, h1, h2, h3, h4, h5, h6, form, fieldset, a, dl, dt, dd {margin:0; padding:0; border:0;}
+body { 
+	background-color:#041a36;
+	color:#000000;
+	font-family:Verdana,Arial,Helvetica,Sans-Serif;
+	font-size:12px;
+	/*background:url(/images/background.jpg) no-repeat fixed bottom;*/
+}
+p {
+	line-height:2;
+}
+#wrapper {
+	width:955px;
+	margin:0 auto;
+	min-width:955px;
+}
+div#content img {border:1px solid #666666;}
+div#content {padding-top:10px;}
+/****************************************************************************************/
+/**************************************** HEADER ****************************************/
+/****************************************************************************************/
+div#header {
+	width:955px;
+	height:160px;
+	overflow:hidden;
+}
+#headerLogo{
+	float:left;
+}
+/*** SEARCH ***/
+div#nraoSearch {
+	display:block;
+	float:right;
+	clear:right;
+	width:203px;
+	position:relative;
+	top:-60px;
+}
+div#nraoSearch input {width:150px;}
+div#nraoSearch a#searchButton {
+	height:31px;
+	font-weight:bold;
+	text-align:center;
+	background:url(bg_blueFade.jpg) top left repeat-x;
+	border:1px solid #000000;
+	padding:3px 5px;
+	overflow:hidden;
+	color:#ffffff;
+	text-decoration:none;
+}
+div#nraoSearch a#searchButton:hover {
+	background:url(bg_redFade.jpg) top left repeat-x;
+}
+#searchForm {
+	padding:10px;
+	color:#000000;
+}
+/*** UTILITY MENU ***/
+div#utilityMenu {
+	float:right;
+	clear:right;
+	margin:11px 11px 0px 0px;
+	position:relative;
+	top:-70px;
+	color:#ffffff;
+}
+div#utilityMenu a {
+	color:#ffffff;
+	text-decoration:none;
+}
+div#utilityMenu a:hover {
+	text-decoration:underline;
+	color:#fcac00;
+}
+/******************************************************************************************/
+/**************************************** TOP MENU ****************************************/
+/******************************************************************************************/
+/*** TOP MENU ***/
+div#menuTop {
+	clear:both;
+	border-top:1px solid #000000;
+	border-bottom:1px solid #000000;
+	height:31px;
+	background-color:#0f3658;
+	background:url(bg_blueFade.jpg) top left repeat-x;
+}
+div#menuTop ul, div#menuTop ol, div#menuTop li {margin:0; padding:0; border:0;}
+div#menuTop ul.menuTop {
+	list-style:none;
+}
+div#menuTop ul.menuTop li {float:left;}
+div#menuTop ul.menuTop li:hover ul {display:block;}
+div#menuTop ul.menuTop li a {
+	display:block;
+	height:23px;
+	width:105px;
+	font-weight:bold;
+	text-align:center;
+	background:url(bg_blueFade.jpg) top left repeat-x;
+	border-right:1px solid #000000;
+	padding:8px 15px 0px 15px;
+	overflow:hidden;
+	color:#ffffff;
+	text-decoration:none;
+}
+div#menuTop ul.menuTop li a#evla {
+	width:100px;
+}
+div#menuTop ul.menuTop li a#vao {
+	width:85px;
+}
+div#menuTop ul.menuTop li a:hover {
+	background:url(bg_redFade.jpg) top left repeat-x;
+}
+div#menuTop ul.menuTop li a.active {   /* CURRENT TAB */
+	background:url(bg_redFade.jpg) top left repeat-x;
+	color:#fcac00;
+}
+/*** DROPDOWNS ***/
+div#menuTop ul.menuTop li ul {
+	display:none;
+	position:absolute;
+	list-style:none;
+	cursor:pointer;
+	background-color:#96b3ce;
+	color:#0f3658;
+	margin:0px;
+	margin-left:-1px;
+	padding:0px;
+	z-index:2008;
+	height:auto;
+	width:200px;
+}
+div#menuTop ul.menuTop li ul li {
+	float:none;
+	height:auto;
+}
+div#menuTop ul.menuTop li ul li a {
+	text-align:left;
+	background-image:none;
+	color:#0f3658;
+	text-decoration:none;
+	height:auto;
+	width:auto;
+	margin:0px;
+	padding:5px;
+}
+div#menuTop ul.menuTop li ul li a:hover {
+	background:none;
+	color:#ffffff;
+	background-color:#661a03;
+}
+/*** FLYOUTS ***/
+div#menuTop ul.menuTop li.active ul {
+	list-style:none;
+	overflow:hidden;
+	display:block;
+	height:26px;
+	width:955px;
+	background-color:#661a03;
+	border-top:1px solid #000000;   /*Takes place of empty space so mouseovers can keep the flyouts sticky*/
+	cursor:pointer;
+	z-index:2007;
+	border-bottom:1px solid #000000;
+}
+/*Shift individual subnavs to the left*/
+/*NEW FOR STATIC TEMPLATE ... BUT THIS EFFECTS THE FLYOUTS TOO!!!*/
+div#menuTop ul.menuTop li.tab1.active ul {margin-left:0px;}
+div#menuTop ul.menuTop li.tab2.active ul {margin-left:-158px;}
+div#menuTop ul.menuTop li.tab3.active ul {margin-left:-316px;}
+div#menuTop ul.menuTop li.tab4.active ul {margin-left:-474px;}
+div#menuTop ul.menuTop li.tab5.active ul {margin-left:-632px;}
+div#menuTop ul.menuTop li.tab6.active ul {margin-left:-790px;}
+div#menuTop ul.menuTop li.active ul li {
+	float:left;
+	height:auto;
+	border-left:1px solid #000000;
+	padding-right:10px;
+}
+div#menuTop ul.menuTop li.active ul li a {
+	text-align:left;
+	background-image:none;
+	color:#ffffff;
+	text-decoration:none;
+	height:auto;
+	width:auto;
+	margin:0px;
+	padding:5px 0px 5px 10px;
+	border-right:none;
+}
+div#menuTop ul.menuTop li.active ul li a:hover {
+	color:#fcac00;
+}
+div#menuTop ul.menuTop li.active a, div#menuTop ul.menuTop li.parent ul li.active a {
+	color:#fcac00;
+}
+div#menuTop ul.menuTop li.parent ul li.parent ul {   /*Hide tertiary*/
+	display:none;
+}
+div#menuTop ul.menuTop li.active ul li a.active, div#menuTop a.active {   /* CURRENT SUB */
+	color:#fcac00;
+}
+div#menuTop ul.menuTop li.active ul ul, 
+div#menuTop ul.menuTop li ul li:hover ul, 
+div#menuTop ul.menuTop li:hover ul li ul {
+	display:none;
+}
+/*********************************************************************************************/
+/**************************************** BREADCRUMBS ****************************************/
+/*********************************************************************************************/
+#breadcrumbs {margin:10px 0px -10px 20px;}
+div#content div#breadcrumbs ul {margin-left:0; padding-left:0; display:inline;} 
+#breadcrumbs ul li {margin-left:0; padding-left:0; list-style:none; display:inline;}
+#breadcrumbs a {display:none; color:#000000; text-decoration:none; font-size:10px;}
+#breadcrumbs a:hover {color:#ff0000;}
+#breadcrumbs a.activeparent, #breadcrumbs a.active {display:inline; padding-right:10px;}
+#breadcrumbs li li a.active {background:url(/assets/breadcrumb_grey.gif) no-repeat left center; padding:0px 15px;}
+#breadcrumbs li li a.activeparent {background:url(/assets/breadcrumb_grey.gif) no-repeat left center; padding:0px 15px;}
+/*******************************************************************************************/
+/**************************************** LEFT MENU ****************************************/
+/*******************************************************************************************/
+div#menuLeft {
+	background-color:#0f3658;   /*0f3658   b0c5d6*/
+	border:3px solid #661a03;   /*661a03 375774*/
+	-moz-border-radius:5px;
+	-khtml-border-radius:5px;
+	display:block;
+	font-size:14px;
+}
+div#menuLeft ul, div#menuLeft ol, div#menuLeft li {margin:0; padding:0; border:0;}
+div#menuLeft h2 {padding:6px; color:#0f3658;}
+div#menuLeft ul.menuLeft {
+	color:#0f3658;
+	list-style:none;
+}
+div#menuLeft li {
+	/* make the list elements a containing block for the nested lists */
+	position:relative;
+}
+div#menuLeft ul li {
+	border-top:1px dotted #ffffff;   /*ffffff   0f3658*/
+}
+/*** START FLYOUTS ***/
+div#menuLeft ul.menuLeft li ul {
+	display:none;
+	position:absolute;
+	left:100%;
+	top:0px;
+	list-style:none;
+	cursor:pointer;
+	background-color:#0f3658;
+	color:#0f3658;
+	margin:0px;
+	margin-left:-1px;
+	padding:0px;
+	height:auto;
+	width:200px;
+}
+div#menuLeft ul.menuLeft li:hover ul {display:block;}
+div#menuLeft ul.menuLeft li:hover ul li ul, div#menuLeft ul.menuLeft li:hover ul li ul li ul {display:none;}
+div#menuLeft ul.menuLeft li ul li:hover ul, div#menuLeft ul.menuLeft li ul li ul li:hover ul {display:block;}
+/*** END FLYOUTS ***/
+div#menuLeft a {
+	color:#ffffff;   /*ffffff   0f3658*/
+	display:block;
+	font-weight:bold;
+	padding:8px;
+	overflow:hidden;
+	text-decoration:none;
+	background-color:#0f3658;
+}
+div#menuLeft a.active {   /* CURRENT TAB */
+	background-color:#661a03;
+	color:#fcac00;
+}
+div#menuLeft a:hover {
+	color:#ffffff;
+	background-color:#661a03;
+}
+/*****************************************************************************************/
+/**************************************** BUTTONS ****************************************/
+/*****************************************************************************************/
+div.container a.button {
+	height:31px;
+	font-weight:bold;
+	text-align:center;
+	background:url(bg_blueFade.jpg) top left repeat-x;
+	border:1px solid #000000;
+	padding:3px 5px;
+	overflow:hidden;
+	color:#ffffff;
+	text-decoration:none;
+}
+div.container a.button:hover {
+	background:url(bg_redFade.jpg) top left repeat-x;
+	text-decoration:none;
+	color:#ffffff;
+}
+/****************************************************************************************/
+/**************************************** FOOTER ****************************************/
+/****************************************************************************************/
+div#footerUtilities {
+	clear:both;
+	text-align:center;
+	color:#375774;
+	border-top:1px solid #26547d;
+	background-color:#ffffff;
+}
+div#footerUtilities a {
+	text-decoration:none;
+	color:#375774;
+	padding:0px 6px;
+}
+div#footerUtilities a:hover {
+	text-decoration:underline;
+}
+div#footer {
+	clear:both;
+	font-size:11px;
+	color:#0f3658;
+	padding:10px;
+	margin-bottom:20px;
+	background-color:#ffffff;	
+	border:1px solid #0f3658;
+	-moz-border-radius:5px;
+	-khtml-border-radius:5px;
+}
+div#footer a {
+	color:#0f3658;
+}
+/******************************************************************************************************************/
+/******************************************************************************************************************/
+/******************************************************************************************************************/
+/************************************************** MAIN CONTENT **************************************************/
+/******************************************************************************************************************/
+/******************************************************************************************************************/
+/******************************************************************************************************************/
+h2 {
+	color:#0f3658;
+	margin-bottom:10px;
+}
+h2 a {
+	color:#0f3658;
+	text-decoration:none;
+}
+h2 a:hover {
+	text-decoration:underline;
+}
+div#leftColumn {
+	width:200px;
+	float:left;
+	clear:left;
+	margin:0px 20px 20px 0px;
+}
+div#mainContent {
+	float:left;
+	width:515px;
+	padding:0px 0px;
+}
+div#rightColumn {
+	display:block;
+	float:right;
+	width:200px;
+	margin:0px 0px 20px 20px;
+}
+div#mainContent2{
+	float:left;
+	width:735px;
+	padding:0px 0px;
+}
+div#mainContent3{
+	float:left;
+	width:955px;
+	padding:0px 0px;
+}
+div.container {
+	background-color:#ffffff;	
+	border:1px solid #0f3658;
+	-moz-border-radius:5px;
+	-khtml-border-radius:5px;
+	padding:20px;
+	margin-bottom:10px;
+}
+div.containerTEST {
+	background-color:#ffffff;	
+	padding:20px;
+	margin-bottom:10px;
+}
+.bummer {
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+}
+.bam {
+	filter:alpha(opacity=100);
+	-moz-opacity:1;
+	-khtml-opacity:1;
+	opacity:1;
+}
+div.container h1 {
+	font-size:18px;
+	margin:20px 0px 6px 0px;
+	color:#992705;
+}
+div.container h2 {
+	font-weight:bold;
+	font-size:18px;
+	color:#0f3658;
+	border:1px solid #375774;
+	-moz-border-radius:5px;
+	-khtml-border-radius:5px;
+	background-color:#b0c5d6;
+	padding:5px;
+	margin:-19px -19px 20px -19px;
+}
+div.container h2 a {
+	color:#0f3658;
+	text-decoration:none;
+}
+div.container h3 {
+	color:#661a03;
+	margin-bottom:-10px;
+	padding:0px;
+}
+div.container h3 a {
+	color:#661a03;
+	text-decoration:none;
+}
+div.container h3 a:hover {
+	text-decoration:underline;
+}
+div.container ul {
+	margin-top:0px;
+}
+div.container li {
+	padding-top:8px;
+}
+div.link {
+	padding:1px;
+}
+div.link h2 {
+	margin:0px;
+}
+div#events, div#news, div#keysciproj, div#resources {font-size:11px;}
+div#news p img, div#keysciproj img {clear:both; float:left; margin:0px 5px 5px 0px;}
+span.eventDate {font-weight:bold;}
+div#events li {
+	line-height:1.5;
+}
+div.container ul.options {
+	list-style:none;
+	margin:-20px -20px -20px -60px;
+}
+div.container ul.options li {
+	clear:both;
+	border-bottom:1px dotted #b0c5d6;
+	padding:5px 10px 5px 10px;
+}
+div.container ul.options li:hover {
+	border-bottom:1px dotted #b0c5d6;
+	background-color:#b0c5d6;
+}
+div.container ul.options a {
+	color:#000000;
+	text-decoration:none;
+}
+div.container ul.options a:hover {
+	color:#661a03;
+	text-decoration:underline;
+}
+div#keysciproj li {
+	padding:5px;
+	margin:0px;
+	clear:both;
+}
+img.colimg {
+	background-color:#ffffff;
+	border:1px solid #b0c5d6;
+	-moz-border-radius:5px;
+	-khtml-border-radius:5px;
+	margin-bottom:10px;
+}
+.description, TD {
+	font-weight:normal;
+	color:#000000;
+	font-size:12px;
+	line-height:1.5;
+}
+.callout {
+	font-weight:bold;
+	color:#661a03;
+}
+div#keysciproj img {
+	margin-bottom:5px;
+}
+div#keysciproj TD {
+	font-size:11px;
+	line-height:1;
+}
+div#keysciproj a {
+	text-decoration:none;
+	color:#375774;
+}
+div#keysciproj TD:hover {
+	text-decoration:underline;
+	background-color:#b0c5d6;
+}
+.scioptions {
+	margin-left:-25px;
+}
+/*ORIGINATED ON DIRECTOR TABLE*/
+td.tableRowHead, td.tableRowOdd, td.tableRowEven {
+	font-size:12px;
+}
+td.tableRowOdd {border-bottom:1px dotted #333333; background-color:#cbd9e7;}
+td.tableRowEven {border-bottom:1px dotted #333333;}
+td.tableRowHead {border-bottom:2px solid #333333; font-weight:bold; padding:6px;}
+/*A2010*/
+ul#whitepapers li {
+	clear:left;
+	padding-top:10px;
+	list-style:none;
+	margin-left:-40px;
+}
+ul#whitepapers li a {
+	font-weight:bold;
+}
+ul#whitepapers img {
+	float:left;
+	margin:0px 5px 10px 0px;
+	width:100px;
+	height:100px;
+}
+ul#rfi li {
+	list-style:none;
+	clear:left;
+	padding-top:10px;
+	margin-left:-40px;
+}
+ul#rfi img {
+	float:left;
+	margin:0px 5px 10px 0px;
+	width:85px;
+	height:85px;
+}

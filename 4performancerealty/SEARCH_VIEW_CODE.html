@@ -1,0 +1,193 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="frame.css">
+<script type="text/javascript" language="JavaScript" src="functions.js"></script>
+	<title>Harrisonburg</title>
+	<meta name="language" content="English">
+	<meta name="author" content="Systems Engineering, Inc.">
+	<meta name="copyright" content="Systems Engineering, Inc.">
+	<meta name="document-rights" content="Copyrighted Work">
+
+	<meta name="document-type" content="Public">
+	<meta name="document-rating" content="General">
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body>
+
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+	<tr>
+		<td align="center">
+
+	<table cellpadding="0" cellspacing="0" border="0" width="100%">
+
+		<tr>
+			<td class="website_top_banner_header" colspan="2">Harrisonburg</td>
+		</tr>
+		<tr>
+			<td valign="top" class="website_top_banner_background">
+				<div class="website_top_banner_subheader">Main Menu</div>
+				<div class="website_top_banner_link"><a href="default.asp?f_id=R%5DVWRWWRWV%5DR">Back to Main Search Screen</a></div>
+
+			</td>
+			<td valign="top" class="website_top_banner_background">
+				<div class="website_top_banner_msg">- To return all results do not select any search criteria.<br />- When entering search criteria, please enter whole values without special characters such as (, * $.)</div>
+			</td>
+		</tr>
+	</table><br />
+
+<table cellpadding="0" cellspacing="0" border="0">
+	<form name="ptype" method="post">
+
+	<tr>
+		<td class="search_title" align="right" valign="top">Search Type:&nbsp;</td>
+		<td valign="top">
+	<select name="this_format" class="function_input_form"onchange="document.ptype.submit();" >
+<option value="1"selected="selected" >Residential</option>
+<option value="2">Multi-Family</option>
+<option value="3">Acreage, Lots</option>
+<option value="4">Farm</option>
+
+<option value="5">Commercial</option>
+</select>
+
+		<div class="website_redmsg">
+			Select a Search Type to automatically reload the search fields for a different property type. <div class="website_redmsg_bold">Your current search type is: Residential</div>
+		</div><br />
+		</td>
+	</tr>
+	</form>
+
+	
+	<form name="main_search" action="default.asp?content=results&this_format=1&f_id=R%5DVWRWWRWV%5DR" method="post">
+	
+	<tr>
+		<td class="search_title" align="right" valign="top">
+			MLS Number:&nbsp;
+		</td>
+		<td valign="top" class="search_form">
+			<input type="text" name="item1" class="search_input_form" size="10" />
+		</td>
+
+	</tr>
+		
+	<tr>
+		<td class="search_title" align="right" valign="top">
+			Property Type:&nbsp;
+		</td>
+		<td valign="top" class="search_form">
+			<input type="checkbox" name="item5" value="R"> Residential
+<input type="checkbox" name="item5" value="T"> Townhouse
+
+<input type="checkbox" name="item5" value="S"> Timeshare
+
+		</td>
+	</tr>
+		
+	<tr>
+		<td class="search_title" align="right" valign="top">
+			List Price:&nbsp;
+		</td>
+		<td valign="top" class="search_form">
+			From <input name="item2" class="search_input_form" size="7" onBlur="test_search_field(document.main_search.item2);" /> To <input name="item2a" class="search_input_form" size="7" onBlur="test_search_field(document.main_search.item2a);" />
+
+		</td>
+	</tr>
+		
+	<tr>
+		<td class="search_title" align="right" valign="top">
+			Bedrooms:&nbsp;
+		</td>
+		<td valign="top" class="search_form">
+			From <input name="item18" class="search_input_form" size="7" onBlur="test_search_field(document.main_search.item18);" /> To <input name="item18a" class="search_input_form" size="7" onBlur="test_search_field(document.main_search.item18a);" />
+
+		</td>
+	</tr>
+		
+	<tr>
+		<td class="search_title" align="right" valign="top">
+			Baths:&nbsp;
+		</td>
+		<td valign="top" class="search_form">
+			From <input name="item19" class="search_input_form" size="7" onBlur="test_search_field(document.main_search.item19);" /> To <input name="item19a" class="search_input_form" size="7" onBlur="test_search_field(document.main_search.item19a);" />
+
+		</td>
+	</tr>
+		
+	<tr>
+		<td class="search_title" align="right" valign="top">
+			Livable SqFt:&nbsp;
+		</td>
+		<td valign="top" class="search_form">
+			From <input name="item99" class="search_input_form" size="7" onBlur="test_search_field(document.main_search.item99);" /> To <input name="item99a" class="search_input_form" size="7" onBlur="test_search_field(document.main_search.item99a);" />
+
+		</td>
+	</tr>
+		
+	<tr>
+		<td class="search_title" align="right" valign="top">
+			Area:&nbsp;
+		</td>
+		<td valign="top" class="search_form">
+			<select size="6" name="item86" class="search_input_form" multiple><option value="" class="search_multiselect">-------------SELECT VALUES-------------</option><option value="City of Harrisonburg (Area 1)">City of Harrisonburg (Area 1)</option>
+
+<option value="Rockingham Co SE (Area 5)">Rockingham Co SE (Area 5)</option>
+<option value="Rockingham Co SW (Area 7)">Rockingham Co SW (Area 7)</option>
+<option value="Rockingham Co NW (Area 9)">Rockingham Co NW (Area 9)</option>
+<option value="Rockingham Co NE (Area 11)">Rockingham Co NE (Area 11)</option>
+<option value="Massanutten Resort (Area 12)">Massanutten Resort (Area 12)</option>
+<option value="Augusta County">Augusta County</option>
+<option value="Staunton City">Staunton City</option>
+<option value="Waynesboro City">Waynesboro City</option>
+<option value="Page County">Page County</option>
+
+<option value="Shenandoah County">Shenandoah County</option>
+<option value="Rockbridge County">Rockbridge County</option>
+<option value="Greene County">Greene County</option>
+<option value="Highland County">Highland County</option>
+<option value="Nelson County">Nelson County</option>
+<option value="Other Area">Other Area</option>
+<option value="Albemarle County">Albemarle County</option>
+</select><div class="website_redmsg">Hold the [Ctrl] key for multiple selections.</div>
+		</td>
+
+	</tr>
+		
+	<tr>
+		<td class="search_title" style="padding-top: 15px;" align="right" valign="top">
+			Sort By:&nbsp;
+		</td>
+		<td valign="top" class="search_form" style="padding-top: 15px;">
+		<select name="sortby" class="search_input_form">
+			<option value="1">MLS Number</option>
+
+<option value="5">Property Type</option>
+<option value="2">List Price</option>
+<option value="18">Bedrooms</option>
+<option value="19">Baths</option>
+<option value="99">Livable SqFt</option>
+<option value="86">Area</option>
+
+		</select>
+		</td>
+
+	</tr>
+	<tr>
+		<td colspan="2" align="center">
+			<input class="button" type="submit" name="submit" value="Search" />
+		</td>
+	</tr>
+	</form>
+</table>
+	<br /><div align="left" class="website_disclaimer">The information provided is deemed accurate but is not guaranteed. All information should be independently verified. <br>All listing data is provided exclusively for consumers personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.<br>Data Source: The Harrisonburg-Rockingham Association of Realtors MLS.  <br></div>
+
+<hr class="website_hr" />
+<div align="left" class="website_disclaimer">Data Source: The Harrisonburg-Rockingham Association of Realtors MLS. http://www.hrar.com </div><br />
+<table width="100%"><tr><TD align=center><img src="http://www.usamls.net/img/designations/mls.gif" alt="MLS" border=0 align=middle> <img src="http://www.usamls.net/img/designations/realtor.gif" alt="REALTOR®" border=0 align=middle> <img src="http://www.usamls.net/img/designations/eho2.gif" alt="Equal Housing Opportunity" border=0 align=middle> </td></tr></table>
+		<div class="website_font"><a href="http://www.seisystems.com" target="new">&copy Systems Engineering, Inc.</a></div>
+		</td>
+	</tr>
+</table>
+</body>
+
+</html>
