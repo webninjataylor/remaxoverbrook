@@ -20,6 +20,6 @@
     <!-- Main Content -->
     <div id="mainContent2" style="width:700px;">
       <!-- ************ EDITABLE MAIN CONTENT AREA ************ -->
-      <img src="images/overbrookPlat.gif" alt="Plat" width="700" height="907" class="colimg" /></p> 
+      <img src="images/overbrookPlat.gif?v=201407031329" alt="Plat" width="700" height="907" class="colimg" /></p> 
     </div>
     <!--#include virtual="assets/footer.shtml"-->
