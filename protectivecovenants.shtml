@@ -1,0 +1,33 @@
+<!--#include virtual="assets/meta.shtml"-->
+<title>Remax Overbrook</title>
+<!-- ************ EDITABLE PAGE TITLE ************ -->
+<!--#include virtual="assets/headermenu.shtml"-->
+<div id="content">
+<!-- Main Content -->
+<div id="mainContent3">
+  <!-- ************ EDITABLE MAIN CONTENT AREA ************ -->
+  <div class="container">
+    <h2>Protective Covenants</h2>
+    <p><a href="assets/covenants.pdf">View Full Protective Covenants</a></p>
+    <h3>One Page Summary of OVERBROOK Covenants &amp; Restrictions</h3>
+    <ol>
+      <li>Single Family lots must be used for Single Family dwelling with a minimum of 1700 square feet not including garage for single story or 1000 square foot per story for a two story home.</li>
+      <li>Duplex lots are reserved for duplexes with 1500 minimum square foot per side.</li>
+      <li>All exterior design of home including colors of exterior, landscaping or additions to any property must be approved by architectural committee.  No exposed cinder block.</li>
+      <li>No building or other improvement of any kind shall be erected, placed or altered on any lot without approval from the design review committee.  All fences, walls, screened or enclosed service areas for garbage, hot tubs &amp; swingsets must be approved by design review committee.</li>
+      <li>No modular homes unless approved by architectural committee.</li>
+      <li>Garage must be a minimum square foot to house 2 cars and maximum 3 cars unless approved by design review committee.</li>
+      <li>No above ground pools.</li>
+      <li>All boats, snowplows, campers &amp; similar vehicles must be stored in garage or otherwise enclosed or screened in a manner approved by design review committee.</li>
+      <li>Satellite Dishes  must be no larger than 18&quot;.</li>
+      <li>Pets – Only customary household pets, cats, dogs etc. are allowed.  No more than 3 pets per dwelling unless approved by Association.  All pets must be kept on a leash or reasonably confined when outside to not be a nuisance or threat to neighbors.</li>
+      <li>The Association may designate a &quot;Community Yard Sale&quot; day.  No yard sales will be permitted unless approved by the Association.</li>
+      <li>Lots shall be kept mowed and maintained by the lot owner.  Common areas will be maintained by the Association.</li>
+      <li>Setbacks for the lots are Front-35', Side-10', and Rear-25'.</li>
+    </ol>
+    
+    <p style="line-height: 1.2;"><strong>These notes shall not be considered a legal document and this summary does not substitute for a complete reading of Covenants &amp; Restrictions by prospective purchasers. Neither the developers nor agents marketing this property are liable for any mistakes or misinterpretations in these notes, and they are not warranted for accuracy or completeness.</strong></p>
+
+  </div>
+</div>
+<!--#include virtual="assets/footer.shtml"-->
